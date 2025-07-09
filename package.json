@@ -1,0 +1,26 @@
+{
+  "name": "feature-flags-npm",
+  "version": "0.1.0",
+  "description": "Paquete NPM de Feature Flags compatible con NestJS",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jose30a/feature-flags-npm.git"
+  },
+  "author": "Jose",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^10.0.0"
+  }
+}
