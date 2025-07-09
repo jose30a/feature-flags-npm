@@ -8,3 +8,5 @@ module.exports = {
   coverageDirectory: './coverage',
   testEnvironment: 'node',
 };
+
+// npx jest para correr los tests
