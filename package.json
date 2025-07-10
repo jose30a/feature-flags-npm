@@ -2,8 +2,8 @@
   "name": "feature-flags-npm",
   "version": "0.1.0",
   "description": "Paquete NPM de Feature Flags compatible con NestJS",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "jest"
